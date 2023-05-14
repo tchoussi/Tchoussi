@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Home : Bookshop</title>
+        <!-- Inclusions des metadatas -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="icon" href="images/logo2.png">
+        <script src="bootstrap/js/bootstrap.bundle.js"></script>
+        <style>
+            #test:hover{
+                color: black;
+                background-color: white;
+                border: 1px solid;
+            }
+        </style>
+
+        <!-- Permanent Navigation Bar -->
+        <nav class="navbar navbar-expand-sm bg-dark">
+
+            <div class="container-fluid">
+                <!-- Links -->
+                <a class="navbar-brand" href="index.php">
+                    <img src="images/logo.png" alt="Avatar Logo" style="width:40px;" class="rounded-pill"> 
+                </a>
+                <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="abonnes.php">Abonnés</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="articles.php">Articles</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="emprunts.php">Emprunts</a>
+                </li>
+                </ul>
+            </div>    
+        </nav>
+    </head>
+    <body>
+        <div class="container-fluid mt-5 ">
+            <div class="row">
+                <div class="card col-mt-4" style="width:300px">
+                    <img class="card-img-top mx-auto d-block" src="useri.png" style="width:200px;height:200px;" alt="Abonnés">
+                    <div class="card-body mx-auto d-block">
+                        <h4 class="card-title text-center">Nos abonnées</h4>
+                        <p class="card-text text-center">Contenu listé de tous les abonnés de la bibliothèque</p>
+                        <a id="test" href="abonnes.php" class="btn btn-secondary mx-auto d-block">Voir liste des abonnés</a>
+                    </div>
+                </div>
+                <div class="card col-mt-4" style="width:300px">
+                    <img class="card-img-top mx-auto d-block" src="booki.png" style="width:200px;height:200px;" alt="Abonnés">
+                    <div class="card-body mx-auto d-block">
+                        <h4 class="card-title text-center">Nos 2000 livres!</h4>
+                        <p class="card-text text-center">Visitez notre magasin de plus de 1000 livres numériques</p>
+                        <a href="articles.php" class="btn btn-secondary mx-auto d-block">Voir la bibliothèque</a>
+                    </div>
+                </div>
+                <div class="card col-mt-4" style="width:300px">
+                    <img class="card-img-top mx-auto d-block" src="empi.png" style="width:200px;height:200px;" alt="Abonnés">
+                    <div class="card-body mx-auto d-block">
+                        <h4 class="card-title text-center">Les partagés</h4>
+                        <p class="card-text text-center">Consulez les livres que nous avons emprunté</p>
+                        <a href="emprunts.php" class="btn btn-secondary mx-auto d-block">Consulter les emprunts</a>
+                    </div>
+                </div>
+                <div class="card col-mt-4" style="width:300px">
+                    <img class="card-img-top mx-auto d-block" src="addi.png" style="width:200px;height:200px;" alt="Abonnés">
+                    <div class="card-body mx-auto d-block">
+                        <h4 class="card-title text-center">Agrandissez la famille</h4>
+                        <p class="card-text text-center">Venez ajouter de nouveau abonnés !</p>
+                        <a href="formulaireAbonne.php" class="btn btn-secondary mx-auto d-block">Ajouter des abonnés</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
